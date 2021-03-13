@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-11.0.0_r32" />
 
+  <remote  name="lewa-revived"
+          fetch="https://github.com/"
+          revision="refs/heads/main-11.0" />
+
   <default revision="refs/heads/lineage-18.1"
            remote="github"
            sync-c="true"
@@ -20,6 +24,7 @@
 
   <!-- AOSP Projects -->
 
+  <!--
   <project path="build/make" name="LineageOS/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -29,11 +34,14 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
+  <!--
   <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+-->
   <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
@@ -775,6 +783,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/lewa-revived.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
