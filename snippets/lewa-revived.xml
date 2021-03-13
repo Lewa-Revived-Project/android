@@ -17,5 +17,5 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="vendor/lewa" name="Lewa-Revived-Project/android_vendor_lineage" remote="lewa-revived"/>
+  <project path="vendor/lewa" name="Lewa-Revived-Project/android_vendor_lewa" remote="lewa-revived"/>
 </manifest>
