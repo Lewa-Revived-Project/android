@@ -1,5 +1,4 @@
 ## Lewa Revived OS Project
-===========
 
 Getting started
 ---------------
@@ -13,5 +12,14 @@ repo init -u https://github.com/Lewa-Revived-Project/android.git -b main-11.0
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
+Then just
+```
+$ . build/envsetup.sh
+
+$ lunch lewa_$device-< eng | userdebug | user >
+
+$ mka bacon -jX
 ```
