@@ -38,4 +38,4 @@ $ mka bacon -jX
  * [**AospExtended**](https://github.com/AospExtended)
  * [**Nitrogen OS**](https://github.com/nitrogen-project)
  * [**Havoc-OS**](https://github.com/Havoc-OS)
- * [**dotOS**](https://github.com/DotOS)
+ * [**dotOS**](https://github.com/dotOS)
