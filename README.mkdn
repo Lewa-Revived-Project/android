@@ -23,3 +23,19 @@ $ lunch lewa_$device-< eng | userdebug | user >
 
 $ mka bacon -jX
 ```
+
+# Credits:
+
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**RevengeOS**](https://github.com/RevengeOS)
+ * [**BlissROMs**](https://github.com/BlissRoms)
+ * [**Syberia Project**](https://github.com/syberia-project)
+ * [**crDroid**](https://github.com/crdroidandroid)
+ * [**ArrowOS**](https://github.com/ArrowOS)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**YAAP**](https://github.com/yaap)
+ * [**PixelExtended**](https://github.com/PixelExtended)
+ * [**AospExtended**](https://github.com/AospExtended)
+ * [**Nitrogen OS**](https://github.com/nitrogen-project)
+ * [**Havoc-OS**](https://github.com/Havoc-OS)
+ * [**dotOS**](https://github.com/DotOS)
