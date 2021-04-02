@@ -19,6 +19,7 @@
 
   <project path="vendor/lewa" name="Lewa-Revived-Project/android_vendor_lewa" remote="lewa-revived"/>
   <project path="packages/apps/Settings" name="Lewa-Revived-Project/android_packages_apps_Settings" groups="pdk-fs" remote="lewa-revived" />
+  <project path="packages/apps/SetupWizard" name="Lewa-Revived-Project/android_packages_apps_SetupWizard" remote="lewa-revived"/>
   <!--
   <project path="frameworks/base" name="Lewa-Revived-Project/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="lewa-revived" />
   -->
